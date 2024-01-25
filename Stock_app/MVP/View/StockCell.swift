@@ -25,6 +25,7 @@ class StockCell: UITableViewCell  {
         super.init(style: .default, reuseIdentifier: reuseIdentifier)
         contentView.isUserInteractionEnabled = true
         setupView()
+        print("asdasd")
         setupLayout()
     }
     
