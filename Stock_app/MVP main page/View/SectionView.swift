@@ -78,26 +78,32 @@ class SectionView:UIView{
     }()
     
     @objc func stocksPressed(){
-            self.stockButton.isSelected.toggle()
-            self.stockButton.isUserInteractionEnabled.toggle()
-            self.favButton.isSelected.toggle()
-            self.favButton.isUserInteractionEnabled.toggle()
         delegate?.showAllTableView()
+    }
+    
+    func moveToStock(){
+        self.stockButton.isSelected = true
+        self.stockButton.isUserInteractionEnabled = false
+        self.favButton.isSelected = false
+        self.favButton.isUserInteractionEnabled = true
+    }
+    
+    func moveToFav(){
+        self.stockButton.isSelected = false
+        self.stockButton.isUserInteractionEnabled = true
+        self.favButton.isSelected = true
+        self.favButton.isUserInteractionEnabled = false
     }
     
     
     @objc func favPressed(){
-            self.stockButton.isSelected.toggle()
-            self.stockButton.isUserInteractionEnabled.toggle()
-            self.favButton.isSelected.toggle()
-            self.favButton.isUserInteractionEnabled.toggle()
         delegate?.showFavTableView()
     }
     
     func setupLayout(){
         self.addSubview(stockButton)
         self.addSubview(favButton)
-                
+
         NSLayoutConstraint.activate([
             stockButton.centerYAnchor.constraint(equalTo: self.centerYAnchor),
             stockButton.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 20)

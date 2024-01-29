@@ -41,6 +41,8 @@ func indicatorView() -> UIActivityIndicatorView{
                 DispatchQueue.main.asyncAfter(deadline: .now()+1 ) {
                     closure()
                 }
+            } else {
+                indicatorView().stopAnimating()
             }
         }
 

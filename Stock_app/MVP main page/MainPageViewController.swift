@@ -15,7 +15,6 @@ enum State {
     case seacrh
 }
 
-
 class MainPageViewController: UIViewController,PresenterDelegate, StockCellDelegate,TopButtonsViewDelegate,ChipCollectionDelegate {
     
     init(presenter: Presenter) {
@@ -55,25 +54,23 @@ class MainPageViewController: UIViewController,PresenterDelegate, StockCellDeleg
         tableView.dataSource = self
         tableView.delegate = self
     }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .white
         setupViews()
         setupDelegates()
         setupTableView()
-        popularRequsts.isHidden = true
-        recentRequsts.isHidden = true
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = true
     }
     func setupTableView(){
         tableView.register(StockCell.self, forCellReuseIdentifier: "stockCell")
-        tableView.allowsSelection = false
+        tableView.allowsSelection = true
         tableView.separatorStyle = .none
         tableView.showsVerticalScrollIndicator = false
         tableView.translatesAutoresizingMaskIntoConstraints = false
     }
-    
-    
     let presenter:Presenter
     
     let tableView = UITableView()
@@ -90,7 +87,7 @@ class MainPageViewController: UIViewController,PresenterDelegate, StockCellDeleg
         return view
     }()
     
-    let array = ["Apple","TSLA","ALL","Alibaba","Company","Citi","Group","AAL","Google"]
+    let array = ["Apple","TSLA","ALL","Alibaba","Company","Citi","Group","AAL","Google","Apple","TSLA","ALL","Alibaba","Company","Citi","Group","AAL","Google"]
     
     lazy var popularRequsts: ChipCollection = {
         let view = ChipCollection(title: "Popular requests",names: array )
@@ -108,8 +105,10 @@ class MainPageViewController: UIViewController,PresenterDelegate, StockCellDeleg
         didSet{
             switch state{
             case .favourite:
+                sectionView.moveToFav()
                 presenter.getFavStock()
             case .stocks:
+                sectionView.moveToStock()
                 presenter.showAllStocks()
             case .seacrh:
                 enterSearchMode()
@@ -125,8 +124,8 @@ class MainPageViewController: UIViewController,PresenterDelegate, StockCellDeleg
 
 extension MainPageViewController:CustomSeacrhBarDelegate{
     func enterSearchMode(){
-        tableView.isHidden = true
         sectionView.isHidden = true
+        tableView.isHidden = true
         popularRequsts.isHidden = false
         recentRequsts.isHidden = false
     }
@@ -136,6 +135,7 @@ extension MainPageViewController:CustomSeacrhBarDelegate{
         recentRequsts.isHidden = true
         sectionView.isHidden = false
         tableView.isHidden = false
+        
     }
     func enterSeacrhState(){
         state = .seacrh
@@ -153,7 +153,24 @@ extension MainPageViewController:CustomSeacrhBarDelegate{
     }
 }
 
-extension MainPageViewController: UITableViewDataSource,UITableViewDelegate,UIScrollViewDelegate {
+extension MainPageViewController: UITableViewDataSource,UITableViewDelegate{
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let data = presenter.tapped(atRow: indexPath.row)
+        let detailsPresenter = DetailsPresenter()
+        let detailsVC = DetailsViewController(presenter: detailsPresenter,data: data)
+        detailsVC.modalPresentationStyle = .fullScreen
+        detailsVC.onNewMarkReceived = { [weak self] ticker,bool in
+            guard let ticker=ticker else{return}
+            if(bool){
+                self?.presenter.favButtonPressed(ticker: ticker)
+            }else{
+                self?.presenter.favButtonUnPressed(ticker: ticker)
+            }
+            self?.tableView.reloadData()
+        }
+        self.navigationController?.pushViewController(detailsVC, animated: true)
+    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return indexPath.row%2==0 ? 68 : 76
@@ -161,9 +178,7 @@ extension MainPageViewController: UITableViewDataSource,UITableViewDelegate,UISc
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return presenter.getStockCount()
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "stockCell", for: indexPath) as? StockCell else {
             return UITableViewCell()
         }
@@ -172,20 +187,19 @@ extension MainPageViewController: UITableViewDataSource,UITableViewDelegate,UISc
         cell.delegate = self
         return cell
     }
-    
-    
+
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-        
+        if(presenter.getMaxCellNUmbers()<=tableView.numberOfRows(inSection: 0)){
+            tableView.stopLoading()
+            return
+        }
         tableView.addLoading(indexPath){
             self.presenter.getImages()
-            tableView.stopLoading() // stop your indicator
+            tableView.stopLoading()
         }
-        
-        
-        
     }
-    
 }
+
 
 
 

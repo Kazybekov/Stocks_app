@@ -38,6 +38,10 @@ class Presenter{
         getImages()
     }
     
+    func tapped (atRow row:Int)->StockListData{
+        return stockList[row]
+    }
+    
     func filterByString(string:String){
         stockList = stockListFromCoreData
         if(string==""){
@@ -102,6 +106,7 @@ class Presenter{
     }
     
     func fetchData(completion: @escaping () -> Void) {
+
         let c = cellCount
         let downloadGroup = DispatchGroup()
         for i in c...c+10 {
@@ -132,6 +137,11 @@ class Presenter{
     func getStockCount()->Int{
         let res = cellCount
         return res
+    }
+    
+    //func to get table view max rows
+    func getMaxCellNUmbers()->Int{
+        return stockList.count
     }
     
     func getStockData(at row:Int)->StockModel{

@@ -36,7 +36,7 @@ class ChipCollection:UIView{
                 hStack2.addArrangedSubview(chip)
                 
             }else{
-                hStack.addArrangedSubview(chip)
+                hStack1.addArrangedSubview(chip)
             }
         }
     }
@@ -54,8 +54,9 @@ class ChipCollection:UIView{
         return scroll
     }()
     
-    let hStack: UIStackView = {
+    let hStack1: UIStackView = {
         let stack = UIStackView()
+        //stack.distribution = .fillProportionally
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 4
         return stack
@@ -63,6 +64,7 @@ class ChipCollection:UIView{
     
     let hStack2: UIStackView = {
         let stack = UIStackView()
+        stack.distribution = .fillProportionally
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 4
         return stack
@@ -91,18 +93,18 @@ class ChipCollection:UIView{
             scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
         
-        scrollView.addSubview(hStack)
+        scrollView.addSubview(hStack1)
         
         NSLayoutConstraint.activate([
-            hStack.topAnchor.constraint(equalTo: scrollView.topAnchor),
-            hStack.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
-            hStack.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
+            hStack1.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            hStack1.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
+            hStack1.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
         ])
         
         scrollView.addSubview(hStack2)
         
         NSLayoutConstraint.activate([
-            hStack2.topAnchor.constraint(equalTo: hStack.bottomAnchor,constant: 8),
+            hStack2.topAnchor.constraint(equalTo: hStack1.bottomAnchor,constant: 8),
             hStack2.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
             hStack2.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
             hStack2.rightAnchor.constraint(equalTo: scrollView.rightAnchor)

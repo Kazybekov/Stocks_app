@@ -11,6 +11,9 @@ extension MainPageViewController{
     
     func setupViews() {
         
+        popularRequsts.isHidden = true
+        recentRequsts.isHidden = true
+        
         view.addSubview(searchBar)
         NSLayoutConstraint.activate([
             searchBar.heightAnchor.constraint(equalToConstant: 48),
@@ -47,9 +50,15 @@ extension MainPageViewController{
         ])
         
         view.addSubview(tableView)
-        tableView.topAnchor.constraint(equalTo: sectionView.bottomAnchor).isActive = true
-        tableView.leftAnchor.constraint(equalTo: view.leftAnchor,constant: 16).isActive = true
-        tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-        tableView.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -16).isActive = true
+        
+        NSLayoutConstraint.activate([
+            tableView.topAnchor.constraint(equalTo: sectionView.bottomAnchor),
+            tableView.leftAnchor.constraint(equalTo: view.leftAnchor,constant: 16),
+            tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor),
+            tableView.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -16)
+        ])
+        
+        
+       
     }
 }
