@@ -106,7 +106,6 @@ class Presenter{
     }
     
     func fetchData(completion: @escaping () -> Void) {
-
         let c = cellCount
         let downloadGroup = DispatchGroup()
         for i in c...c+10 {
@@ -145,6 +144,10 @@ class Presenter{
     }
     
     func getStockData(at row:Int)->StockModel{
+        
+//        if(stockList.count<=row){
+//            return StockModel(name: "Error")
+//        }
         if let data=dictionary[stockList[row].ticker!]{
             return data
         }

@@ -22,6 +22,9 @@
 		6495C99B2B5FD1F500741AB7 /* UITableViewExtensionLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495C99A2B5FD1F500741AB7 /* UITableViewExtensionLoading.swift */; };
 		6495C99D2B5FDE1600741AB7 /* Chip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495C99C2B5FDE1600741AB7 /* Chip.swift */; };
 		6495C99F2B5FDFBC00741AB7 /* ChipCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6495C99E2B5FDFBC00741AB7 /* ChipCollection.swift */; };
+		64B6BAA22B69096D00C9DDEB /* DetailsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64B6BAA12B69096D00C9DDEB /* DetailsSectionView.swift */; };
+		64DF15012B73BDFD00407B95 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 64DF15002B73BDFD00407B95 /* DGCharts */; };
+		64DF15032B73BDFD00407B95 /* DGChartsDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 64DF15022B73BDFD00407B95 /* DGChartsDynamic */; };
 		64FD28492B4EBB19000717C1 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD28482B4EBB19000717C1 /* SectionView.swift */; };
 		64FD284B2B4EBDAA000717C1 /* CustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD284A2B4EBDAA000717C1 /* CustomSearchBar.swift */; };
 		64FD284E2B4EEF26000717C1 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FD284D2B4EEF26000717C1 /* Networking.swift */; };
@@ -45,6 +48,7 @@
 		6495C99A2B5FD1F500741AB7 /* UITableViewExtensionLoading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensionLoading.swift; sourceTree = "<group>"; };
 		6495C99C2B5FDE1600741AB7 /* Chip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chip.swift; sourceTree = "<group>"; };
 		6495C99E2B5FDFBC00741AB7 /* ChipCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipCollection.swift; sourceTree = "<group>"; };
+		64B6BAA12B69096D00C9DDEB /* DetailsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsSectionView.swift; sourceTree = "<group>"; };
 		64FD28482B4EBB19000717C1 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		64FD284A2B4EBDAA000717C1 /* CustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSearchBar.swift; sourceTree = "<group>"; };
 		64FD284D2B4EEF26000717C1 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DF15012B73BDFD00407B95 /* DGCharts in Frameworks */,
+				64DF15032B73BDFD00407B95 /* DGChartsDynamic in Frameworks */,
 				644A0F222B5EA8CA00E6EC65 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +135,7 @@
 		648805C12B67F54400F4117C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				64B6BAA12B69096D00C9DDEB /* DetailsSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +170,8 @@
 			name = Stock_app;
 			packageProductDependencies = (
 				644A0F212B5EA8CA00E6EC65 /* IQKeyboardManagerSwift */,
+				64DF15002B73BDFD00407B95 /* DGCharts */,
+				64DF15022B73BDFD00407B95 /* DGChartsDynamic */,
 			);
 			productName = Stock_app;
 			productReference = 643BEAA72B469BF200508197 /* Stock_app.app */;
@@ -194,6 +203,7 @@
 			mainGroup = 643BEA9E2B469BF200508197;
 			packageReferences = (
 				644A0F202B5EA8CA00E6EC65 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				64DF14FF2B73BDFD00407B95 /* XCRemoteSwiftPackageReference "Charts" */,
 			);
 			productRefGroup = 643BEAA82B469BF200508197 /* Products */;
 			projectDirPath = "";
@@ -223,6 +233,7 @@
 				6495C99B2B5FD1F500741AB7 /* UITableViewExtensionLoading.swift in Sources */,
 				643BEAAF2B469BF200508197 /* MainPageViewController.swift in Sources */,
 				64FD28502B50425D000717C1 /* Presenter.swift in Sources */,
+				64B6BAA22B69096D00C9DDEB /* DetailsSectionView.swift in Sources */,
 				64FD284E2B4EEF26000717C1 /* Networking.swift in Sources */,
 				644A0F262B5EB0D000E6EC65 /* MainPageLayout.swift in Sources */,
 				6495C99F2B5FDFBC00741AB7 /* ChipCollection.swift in Sources */,
@@ -443,6 +454,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		64DF14FF2B73BDFD00407B95 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts?tab=readme-ov-file";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -450,6 +469,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 644A0F202B5EA8CA00E6EC65 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
+		};
+		64DF15002B73BDFD00407B95 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64DF14FF2B73BDFD00407B95 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+		64DF15022B73BDFD00407B95 /* DGChartsDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 64DF14FF2B73BDFD00407B95 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGChartsDynamic;
 		};
 /* End XCSwiftPackageProductDependency section */
 

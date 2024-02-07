@@ -170,6 +170,8 @@ extension MainPageViewController: UITableViewDataSource,UITableViewDelegate{
             self?.tableView.reloadData()
         }
         self.navigationController?.pushViewController(detailsVC, animated: true)
+        
+        tableView.deselectRow(at: indexPath, animated: true)
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

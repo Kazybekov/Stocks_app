@@ -5,6 +5,7 @@
 //  Created by Yersin Kazybekov on 29.01.2024.
 //
 import UIKit
+import DGCharts
 
 class DetailsViewController:UIViewController{
     let presenter:DetailsPresenter
@@ -25,6 +26,17 @@ class DetailsViewController:UIViewController{
         fillData()
     }
     
+    lazy var lineChartView: LineChartView = {
+        let chart = LineChartView()
+        chart.backgroundColor = .systemBlue
+        return chart
+    }()
+    
+    let detailsSectionView: DetailsSectionView = {
+        let view = DetailsSectionView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
     func fillData(){
         starButton.isSelected = data.isFavourite
         tickerLabel.text = data.ticker
@@ -78,6 +90,8 @@ class DetailsViewController:UIViewController{
         view.addSubview(tickerLabel)
         view.addSubview(nameLabel)
         view.addSubview(starButton)
+        view.addSubview(detailsSectionView)
+        view.addSubview(lineChartView)
     }
 
     
@@ -104,6 +118,13 @@ class DetailsViewController:UIViewController{
             starButton.widthAnchor.constraint(equalToConstant: 24),
             starButton.heightAnchor.constraint(equalToConstant: 24),
             starButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 28)
+        ])
+        
+        NSLayoutConstraint.activate([
+            detailsSectionView.topAnchor.constraint(equalTo: nameLabel.bottomAnchor,constant: 20),
+            detailsSectionView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 0),
+            detailsSectionView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 0),
+            detailsSectionView.heightAnchor.constraint(equalToConstant: 26)
         ])
     }
     

@@ -54,9 +54,18 @@ class ChipCollection:UIView{
         return scroll
     }()
     
+    let vStack: UIStackView = {
+        let stack = UIStackView()
+        stack.distribution = .fillProportionally
+        stack.axis = .vertical
+        stack.translatesAutoresizingMaskIntoConstraints = false
+        stack.spacing = 4
+        return stack
+    }()
+    
     let hStack1: UIStackView = {
         let stack = UIStackView()
-        //stack.distribution = .fillProportionally
+        stack.distribution = .fillProportionally
         stack.translatesAutoresizingMaskIntoConstraints = false
         stack.spacing = 4
         return stack
@@ -93,23 +102,31 @@ class ChipCollection:UIView{
             scrollView.bottomAnchor.constraint(equalTo: self.bottomAnchor)
         ])
         
-        scrollView.addSubview(hStack1)
+        scrollView.addSubview(vStack)
         
         NSLayoutConstraint.activate([
-            hStack1.topAnchor.constraint(equalTo: scrollView.topAnchor),
-            hStack1.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
-            hStack1.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
+            vStack.topAnchor.constraint(equalTo: scrollView.topAnchor),
+            vStack.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
+            vStack.rightAnchor.constraint(equalTo: scrollView.rightAnchor),
+            vStack.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor)
+
         ])
         
-        scrollView.addSubview(hStack2)
+        vStack.addArrangedSubview(hStack1)
+        vStack.addArrangedSubview(hStack2)
         
-        NSLayoutConstraint.activate([
-            hStack2.topAnchor.constraint(equalTo: hStack1.bottomAnchor,constant: 8),
-            hStack2.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
-            hStack2.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
-            hStack2.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
-        ])
-        
+//        NSLayoutConstraint.activate([
+//            hStack1.topAnchor.constraint(equalTo: scrollView.topAnchor),
+//            hStack1.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
+//            hStack1.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
+//        ])
+//        NSLayoutConstraint.activate([
+//            hStack2.topAnchor.constraint(equalTo: hStack1.bottomAnchor,constant: 8),
+//            hStack2.leftAnchor.constraint(equalTo: scrollView.leftAnchor),
+//            hStack2.bottomAnchor.constraint(equalTo: scrollView.bottomAnchor),
+//            hStack2.rightAnchor.constraint(equalTo: scrollView.rightAnchor)
+//        ])
+//
         
     }
     
