@@ -157,8 +157,7 @@ extension MainPageViewController: UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let data = presenter.tapped(atRow: indexPath.row)
-        let detailsPresenter = DetailsPresenter()
-        let detailsVC = DetailsViewController(presenter: detailsPresenter,data: data)
+        let detailsVC = DetailsViewController(data: data)
         detailsVC.modalPresentationStyle = .fullScreen
         detailsVC.onNewMarkReceived = { [weak self] ticker,bool in
             guard let ticker=ticker else{return}

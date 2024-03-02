@@ -38,8 +38,8 @@ class Presenter{
         getImages()
     }
     
-    func tapped (atRow row:Int)->StockListData{
-        return stockList[row]
+    func tapped (atRow row:Int)->StockModel{
+        return dictionary[stockList[row].ticker ?? "None"] ?? StockModel()
     }
     
     func filterByString(string:String){

@@ -30,7 +30,6 @@ class StockCell: UITableViewCell  {
     
     
     func setupCellData(data: StockModel){
-        
         starButton.isSelected = data.isFavourite
         tickerLabel.text = data.ticker
         fullName.text = data.name

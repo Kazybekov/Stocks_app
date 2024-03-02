@@ -7,28 +7,115 @@
 import UIKit
 import DGCharts
 
-class DetailsViewController:UIViewController{
-    let presenter:DetailsPresenter
-    let data:StockListData
+enum Period {
+    case all
+    case year
+    case sixMonth
+    case month
+    case week
+    case day
+}
+
+class DetailsViewController:UIViewController,ChartViewDelegate,ButtonCollectionDelegate{
+    
+    let data:StockModel
     var onNewMarkReceived: ((String?,Bool) -> Void)?
     
-    init(presenter:DetailsPresenter,data:StockListData){
-        self.presenter = presenter
-        self.data = data
-        super.init(nibName: nil, bundle: nil)
+    var period = Period.all {
+        didSet{
+            getChartData()
+        }
     }
-    
+
+    init(data:StockModel){
+        self.data = data
+        self.period = .all
+        super.init(nibName: nil, bundle: nil)
+        view.backgroundColor = .white
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        buttonCollection.delegate = self
         setupViews()
         setupLayout()
         fillData()
+        setMarker()
     }
+    
+    lazy var presenter:DetailsPresenter={
+        var p = DetailsPresenter(ticker:data.ticker ?? "None",period:period)
+        return p
+    }()
+    
+    func getChartData(){
+        activityIndicator.startAnimating()
+        lineChartView.isHidden = true
+        
+        DispatchQueue.global().async {
+            self.presenter.getValues(for: self.period) { entries in
+                let set = LineChartDataSet(entries: entries)
+                set.drawCirclesEnabled = false
+                set.mode = .cubicBezier
+                set.lineWidth = 3
+                set.setColor(.black)
+                set.fill = LinearGradientFill(gradient: self.presenter.getGradientFilling(),angle: 90)
+                set.drawFilledEnabled = true
+                set.drawVerticalHighlightIndicatorEnabled = false
+                set.drawHorizontalHighlightIndicatorEnabled = false
+                let data = LineChartData(dataSet: set)
+                data.setDrawValues(false)
+                
+                DispatchQueue.main.async {
+                    self.lineChartView.data = data
+                    self.lineChartView.isHidden = false
+                    self.activityIndicator.stopAnimating()
+                }
+            }
+        }
+    }
+    func setMarker(){
+        let marker = RectMarker(color: .black, font: UIFont.systemFont(ofSize: CGFloat(12.0)), insets: UIEdgeInsets(top: 8.0, left: 20, bottom: 4.0, right: 0))
+        marker.chartView = lineChartView
+        marker.minimumSize = CGSize(width: CGFloat(60.0), height: CGFloat(30.0))
+        lineChartView.marker = marker
+    }
+    func fillData(){
+        period = .all
+        starButton.isSelected = data.isFavourite
+        tickerLabel.text = data.ticker
+        nameLabel.text = data.name
+        priceView.setData(data: data)
+    }
+    func setupViews(){
+        view.addSubview(backButton)
+        view.addSubview(tickerLabel)
+        view.addSubview(nameLabel)
+        view.addSubview(starButton)
+        view.addSubview(detailsSectionView)
+        view.addSubview(priceView)
+        view.addSubview(lineChartView)
+        view.addSubview(buttonCollection)
+        view.addSubview(activityIndicator)
+    }
+    
+    func stateChanged(state: Period) {
+        period = state
+    }
+    
+    let activityIndicator : UIActivityIndicatorView = {
+        let indicator = UIActivityIndicatorView(style: .large)
+        indicator.translatesAutoresizingMaskIntoConstraints = false
+        return indicator
+    }()
     
     lazy var lineChartView: LineChartView = {
         let chart = LineChartView()
-        chart.backgroundColor = .systemBlue
+        chart.translatesAutoresizingMaskIntoConstraints = false
+        chart.rightAxis.enabled = false
+        chart.leftAxis.enabled = false
+        chart.xAxis.enabled = false
+        chart.legend.enabled = false
+        chart.drawMarkers = true
         return chart
     }()
     
@@ -37,11 +124,6 @@ class DetailsViewController:UIViewController{
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
-    func fillData(){
-        starButton.isSelected = data.isFavourite
-        tickerLabel.text = data.ticker
-        nameLabel.text = data.name
-    }
     
     let starButton: UIButton = {
         let button = UIButton()
@@ -51,7 +133,6 @@ class DetailsViewController:UIViewController{
         button.addTarget(self, action: #selector(favPressed), for: .touchUpInside)
         return button
     }()
-    
     @objc func favPressed(){
         starButton.isSelected.toggle()
         onNewMarkReceived?(data.ticker,starButton.isSelected)
@@ -64,6 +145,7 @@ class DetailsViewController:UIViewController{
         label.font = UIFont.systemFont(ofSize: 18, weight: .bold)
         return label
     }()
+    
     let nameLabel: UILabel = {
         let label = UILabel()
         label.text = "Apple inc."
@@ -80,54 +162,20 @@ class DetailsViewController:UIViewController{
         return button
     }()
     
-    
+    let priceView:PriceView = {
+        let view = PriceView()
+        view.translatesAutoresizingMaskIntoConstraints = false
+        return view
+    }()
     @objc func goBack(){
         self.navigationController?.popViewController(animated: true)
     }
     
-    func setupViews(){
-        view.addSubview(backButton)
-        view.addSubview(tickerLabel)
-        view.addSubview(nameLabel)
-        view.addSubview(starButton)
-        view.addSubview(detailsSectionView)
-        view.addSubview(lineChartView)
-    }
-
-    
-    func setupLayout(){
-        NSLayoutConstraint.activate([
-            backButton.leftAnchor.constraint(equalTo: view.leftAnchor,constant: 16),
-            backButton.widthAnchor.constraint(equalToConstant: 24),
-            backButton.heightAnchor.constraint(equalToConstant: 24),
-            backButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 28)
-        ])
-        
-        NSLayoutConstraint.activate([
-            tickerLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            tickerLabel.bottomAnchor.constraint(equalTo: backButton.centerYAnchor)
-        ])
-        
-        NSLayoutConstraint.activate([
-            nameLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            nameLabel.topAnchor.constraint(equalTo: backButton.centerYAnchor)
-        ])
-        
-        NSLayoutConstraint.activate([
-            starButton.rightAnchor.constraint(equalTo: view.rightAnchor,constant: -16),
-            starButton.widthAnchor.constraint(equalToConstant: 24),
-            starButton.heightAnchor.constraint(equalToConstant: 24),
-            starButton.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 28)
-        ])
-        
-        NSLayoutConstraint.activate([
-            detailsSectionView.topAnchor.constraint(equalTo: nameLabel.bottomAnchor,constant: 20),
-            detailsSectionView.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 0),
-            detailsSectionView.rightAnchor.constraint(equalTo: view.rightAnchor, constant: 0),
-            detailsSectionView.heightAnchor.constraint(equalToConstant: 26)
-        ])
-    }
-    
+    let buttonCollection:ButtonCollection = {
+        let collection = ButtonCollection()
+        collection.translatesAutoresizingMaskIntoConstraints = false
+        return collection
+    }()
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
