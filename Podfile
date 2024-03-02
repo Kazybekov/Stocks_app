@@ -6,5 +6,6 @@ target 'Stock_app' do
   use_frameworks!
 
   # Pods for Stock_app
+  pod 'DGCharts'
 
 end
