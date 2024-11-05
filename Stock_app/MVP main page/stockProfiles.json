@@ -1,0 +1,2442 @@
+[ {
+    "name": "Waters Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WAT",
+    "ticker": "WAT"
+  },
+  {
+    "name": "American Airlines Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AAL",
+    "ticker": "AAL"
+  },
+  {
+    "name": "Advance Auto Parts Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AAP",
+    "ticker": "AAP"
+  },
+  {
+    "name": "Abbvie Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ABBV",
+    "ticker": "ABBV"
+  },
+  
+  {
+    "name": "Abbott Laboratories",
+    "logo": "https://finnhub.io/api/logo?symbol=ABT",
+    "ticker": "ABT"
+  },
+  {
+    "name": "Accenture PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=ACN",
+    "ticker": "ACN"
+  },
+  {
+    "name": "Adobe Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ADBE",
+    "ticker": "ADBE"
+  },
+  {
+    "name": "Ameren Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=AEE",
+    "ticker": "AEE"
+  },
+  {
+    "name": "AES Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=AES",
+    "ticker": "AES"
+  },
+  {
+    "name": "Aflac Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AFL",
+    "ticker": "AFL"
+  },
+  {
+    "name": "Albemarle Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ALB",
+    "ticker": "ALB"
+  },
+  {
+    "name": "Align Technology Inc",
+    "logo": "",
+    "ticker": "ALGN"
+  },
+  {
+    "name": "Alaska Air Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ALK",
+    "ticker": "ALK"
+  },
+  {
+    "name": "Allstate Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ALL",
+    "ticker": "ALL"
+  },
+  {
+    "name": "Allegion PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=ALLE",
+    "ticker": "ALLE"
+  },
+  {
+    "name": "Alexion Pharmaceuticals Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ALXN",
+    "ticker": "ALXN"
+  },
+  {
+    "name": "Amcor PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=AMCR",
+    "ticker": "AMCR"
+  },
+  {
+    "name": "Advanced Micro Devices Inc",
+    "logo": "",
+    "ticker": "AMD"
+  },
+  {
+    "name": "Amazon.com Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AMZN",
+    "ticker": "AMZN"
+  },
+  {
+    "name": "A. O. Smith Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=AOS",
+    "ticker": "AOS"
+  },
+  {
+    "name": "Air Products and Chemicals Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=APD",
+    "ticker": "APD"
+  },
+  {
+    "name": "Activision Blizzard Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ATVI",
+    "ticker": "ATVI"
+  },
+  {
+    "name": "Alphabet Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GOOGL",
+    "ticker": "GOOGL"
+  },
+  {
+    "name": "Alliant Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LNT",
+    "ticker": "LNT"
+  },
+  {
+    "name": "3M Co",
+    "logo": "",
+    "ticker": "MMM"
+  },
+  {
+    "name": "Altria Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MO",
+    "ticker": "MO"
+  },
+  {
+    "name": "Apple Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AAPL",
+    "ticker": "AAPL"
+  },
+  {
+    "name": "Amerisourcebergen Corp",
+    "logo": "",
+    "ticker": "ABC"
+  },
+  {
+    "name": "Analog Devices Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ADI",
+    "ticker": "ADI"
+  },
+  {
+    "name": "Archer-Daniels-Midland Co",
+    "logo": "https://finnhub.io/api/logo?symbol=ADM",
+    "ticker": "ADM"
+  },
+  {
+    "name": "Automatic Data Processing Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ADP",
+    "ticker": "ADP"
+  },
+  {
+    "name": "Autodesk Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ADSK",
+    "ticker": "ADSK"
+  },
+  {
+    "name": "American Electric Power Company Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AEP",
+    "ticker": "AEP"
+  },
+  {
+    "name": "American International Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AIG",
+    "ticker": "AIG"
+  },
+  {
+    "name": "Assurant Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AIZ",
+    "ticker": "AIZ"
+  },
+  {
+    "name": "Arthur J Gallagher & Co",
+    "logo": "https://finnhub.io/api/logo?symbol=AJG",
+    "ticker": "AJG"
+  },
+  {
+    "name": "Applied Materials Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AMAT",
+    "ticker": "AMAT"
+  },
+  {
+    "name": "AMETEK Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AME",
+    "ticker": "AME"
+  },
+  {
+    "name": "Amgen Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AMGN",
+    "ticker": "AMGN"
+  },
+  {
+    "name": "Ameriprise Financial Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AMP",
+    "ticker": "AMP"
+  },
+  {
+    "name": "American Tower Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=AMT",
+    "ticker": "AMT"
+  },
+  {
+    "name": "Arista Networks Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ANET",
+    "ticker": "ANET"
+  },
+  {
+    "name": "ANSYS Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ANSS",
+    "ticker": "ANSS"
+  },
+  {
+    "name": "Anthem Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ANTM",
+    "ticker": "ANTM"
+  },
+  {
+    "name": "Aon PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=AON",
+    "ticker": "AON"
+  },
+  {
+    "name": "Apache Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=APA",
+    "ticker": "APA"
+  },
+  {
+    "name": "Amphenol Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=APH",
+    "ticker": "APH"
+  },
+  {
+    "name": "Aptiv PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=APTV",
+    "ticker": "APTV"
+  },
+  {
+    "name": "Atmos Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ATO",
+    "ticker": "ATO"
+  },
+  {
+    "name": "Avalonbay Communities Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AVB",
+    "ticker": "AVB"
+  },
+  {
+    "name": "Avery Dennison Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=AVY",
+    "ticker": "AVY"
+  },
+  {
+    "name": "American Water Works Company Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AWK",
+    "ticker": "AWK"
+  },
+  {
+    "name": "American Express Co",
+    "logo": "https://finnhub.io/api/logo?symbol=AXP",
+    "ticker": "AXP"
+  },
+  {
+    "name": "Autozone Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AZO",
+    "ticker": "AZO"
+  },
+  {
+    "name": "Baker Hughes Co",
+    "logo": "https://finnhub.io/api/logo?symbol=BKR",
+    "ticker": "BKR"
+  },
+  {
+    "name": "AT&T Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=T",
+    "ticker": "T"
+  },
+  {
+    "name": "Broadcom Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=AVGO",
+    "ticker": "AVGO"
+  },
+  {
+    "name": "Boeing Co",
+    "logo": "https://finnhub.io/api/logo?symbol=BA",
+    "ticker": "BA"
+  },
+  {
+    "name": "Bank of America Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=BAC",
+    "ticker": "BAC"
+  },
+  {
+    "name": "Baxter International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BAX",
+    "ticker": "BAX"
+  },
+  {
+    "name": "Best Buy Co Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BBY",
+    "ticker": "BBY"
+  },
+  {
+    "name": "Becton Dickinson and Co",
+    "logo": "https://finnhub.io/api/logo?symbol=BDX",
+    "ticker": "BDX"
+  },
+  {
+    "name": "Biogen Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BIIB",
+    "ticker": "BIIB"
+  },
+  {
+    "name": "Bio Rad Laboratories Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BIO",
+    "ticker": "BIO"
+  },
+  {
+    "name": "Booking Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BKNG",
+    "ticker": "BKNG"
+  },
+  {
+    "name": "Ball Corp",
+    "logo": "",
+    "ticker": "BLL"
+  },
+  {
+    "name": "Bristol-Myers Squibb Co",
+    "logo": "https://finnhub.io/api/logo?symbol=BMY",
+    "ticker": "BMY"
+  },
+  {
+    "name": "Broadridge Financial Solutions Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BR",
+    "ticker": "BR"
+  },
+  {
+    "name": "Berkshire Hathaway Inc",
+    "logo": "",
+    "ticker": "BRK.A"
+  },
+  {
+    "name": "Boston Scientific Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=BSX",
+    "ticker": "BSX"
+  },
+  {
+    "name": "Borgwarner Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BWA",
+    "ticker": "BWA"
+  },
+  {
+    "name": "Boston Properties Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BXP",
+    "ticker": "BXP"
+  },
+  {
+    "name": "Cardinal Health Inc",
+    "logo": "",
+    "ticker": "CAH"
+  },
+  {
+    "name": "Carrier Global Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CARR",
+    "ticker": "CARR"
+  },
+  {
+    "name": "Caterpillar Inc",
+    "logo": "",
+    "ticker": "CAT"
+  },
+  {
+    "name": "Cboe Global Markets Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CBOE",
+    "ticker": "CBOE"
+  },
+  {
+    "name": "Carnival Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CCL",
+    "ticker": "CCL"
+  },
+  {
+    "name": "Cadence Design Systems Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CDNS",
+    "ticker": "CDNS"
+  },
+  {
+    "name": "CH Robinson Worldwide Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CHRW",
+    "ticker": "CHRW"
+  },
+  {
+    "name": "Capital One Financial Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=COF",
+    "ticker": "COF"
+  },
+  {
+    "name": "Cabot Oil & Gas Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=COG",
+    "ticker": "COG"
+  },
+  {
+    "name": "Campbell Soup Co",
+    "logo": "",
+    "ticker": "CPB"
+  },
+  {
+    "name": "Catalent Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CTLT",
+    "ticker": "CTLT"
+  },
+  {
+    "name": "Carmax Inc",
+    "logo": "",
+    "ticker": "KMX"
+  },
+  {
+    "name": "Citigroup Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=C",
+    "ticker": "C"
+  },
+  {
+    "name": "Conagra Brands Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CAG",
+    "ticker": "CAG"
+  },
+  {
+    "name": "Chubb Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=CB",
+    "ticker": "CB"
+  },
+  {
+    "name": "CBRE Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CBRE",
+    "ticker": "CBRE"
+  },
+  {
+    "name": "CDW Corp",
+    "logo": "",
+    "ticker": "CDW"
+  },
+  {
+    "name": "Celanese Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CE",
+    "ticker": "CE"
+  },
+  {
+    "name": "Cerner Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CERN",
+    "ticker": "CERN"
+  },
+  {
+    "name": "CF Industries Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CF",
+    "ticker": "CF"
+  },
+  {
+    "name": "Citizens Financial Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CFG",
+    "ticker": "CFG"
+  },
+  {
+    "name": "Church & Dwight Co Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CHD",
+    "ticker": "CHD"
+  },
+  {
+    "name": "Charter Communications Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CHTR",
+    "ticker": "CHTR"
+  },
+  {
+    "name": "Cigna Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CI",
+    "ticker": "CI"
+  },
+  {
+    "name": "Cincinnati Financial Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CINF",
+    "ticker": "CINF"
+  },
+  {
+    "name": "Colgate-Palmolive Co",
+    "logo": "https://finnhub.io/api/logo?symbol=CL",
+    "ticker": "CL"
+  },
+  {
+    "name": "Comerica Inc",
+    "logo": "",
+    "ticker": "CMA"
+  },
+  {
+    "name": "Comcast Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CMCSA",
+    "ticker": "CMCSA"
+  },
+  {
+    "name": "CME Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CME",
+    "ticker": "CME"
+  },
+  {
+    "name": "Chipotle Mexican Grill Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CMG",
+    "ticker": "CMG"
+  },
+  {
+    "name": "CMS Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CMS",
+    "ticker": "CMS"
+  },
+  {
+    "name": "Centene Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CNC",
+    "ticker": "CNC"
+  },
+  {
+    "name": "CenterPoint Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CNP",
+    "ticker": "CNP"
+  },
+  {
+    "name": "ConocoPhillips",
+    "logo": "https://finnhub.io/api/logo?symbol=COP",
+    "ticker": "COP"
+  },
+  {
+    "name": "",
+    "logo": "https://finnhub.io/api/logo?symbol=CSCO",
+    "ticker": "CSCO"
+  },
+  {
+    "name": "Cintas Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CTAS",
+    "ticker": "CTAS"
+  },
+  {
+    "name": "Cognizant Technology Solutions Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CTSH",
+    "ticker": "CTSH"
+  },
+  {
+    "name": "Citrix Systems Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CTXS",
+    "ticker": "CTXS"
+  },
+  {
+    "name": "Chevron Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CVX",
+    "ticker": "CVX"
+  },
+  {
+    "name": "Consolidated Edison Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ED",
+    "ticker": "ED"
+  },
+  {
+    "name": "Coca-Cola Co",
+    "logo": "https://finnhub.io/api/logo?symbol=KO",
+    "ticker": "KO"
+  },
+  {
+    "name": "Charles Schwab Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SCHW",
+    "ticker": "SCHW"
+  },
+  {
+    "name": "Crown Castle International Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CCI",
+    "ticker": "CCI"
+  },
+  {
+    "name": "Cummins Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CMI",
+    "ticker": "CMI"
+  },
+  {
+    "name": "Costco Wholesale Corp",
+    "logo": "",
+    "ticker": "COST"
+  },
+  {
+    "name": "Copart Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CPRT",
+    "ticker": "CPRT"
+  },
+  {
+    "name": "CSX Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CSX",
+    "ticker": "CSX"
+  },
+  {
+    "name": "Corteva Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CTVA",
+    "ticker": "CTVA"
+  },
+  {
+    "name": "CVS Health Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=CVS",
+    "ticker": "CVS"
+  },
+  {
+    "name": "Dominion Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=D",
+    "ticker": "D"
+  },
+  {
+    "name": "Delta Air Lines Inc",
+    "logo": "",
+    "ticker": "DAL"
+  },
+  {
+    "name": "Deere & Co",
+    "logo": "https://finnhub.io/api/logo?symbol=DE",
+    "ticker": "DE"
+  },
+  {
+    "name": "Discover Financial Services",
+    "logo": "https://finnhub.io/api/logo?symbol=DFS",
+    "ticker": "DFS"
+  },
+  {
+    "name": "Dollar General Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DG",
+    "ticker": "DG"
+  },
+  {
+    "name": "D.R. Horton Inc",
+    "logo": "",
+    "ticker": "DHI"
+  },
+  {
+    "name": "Danaher Corp",
+    "logo": "",
+    "ticker": "DHR"
+  },
+  {
+    "name": "Discovery Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DISCA",
+    "ticker": "DISCA"
+  },
+  {
+    "name": "DISH Network Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DISH",
+    "ticker": "DISH"
+  },
+  {
+    "name": "Digital Realty Trust Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DLR",
+    "ticker": "DLR"
+  },
+  {
+    "name": "Dollar Tree Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DLTR",
+    "ticker": "DLTR"
+  },
+  {
+    "name": "Dover Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DOV",
+    "ticker": "DOV"
+  },
+  {
+    "name": "Dow Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DOW",
+    "ticker": "DOW"
+  },
+  {
+    "name": "Darden Restaurants Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DRI",
+    "ticker": "DRI"
+  },
+  {
+    "name": "DaVita Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DVA",
+    "ticker": "DVA"
+  },
+  {
+    "name": "Devon Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DVN",
+    "ticker": "DVN"
+  },
+  {
+    "name": "Dexcom Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DXCM",
+    "ticker": "DXCM"
+  },
+  {
+    "name": "Diamondback Energy Inc",
+    "logo": "",
+    "ticker": "FANG"
+  },
+  {
+    "name": "Corning Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GLW",
+    "ticker": "GLW"
+  },
+  {
+    "name": "Constellation Brands Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=STZ",
+    "ticker": "STZ"
+  },
+  {
+    "name": "DENTSPLY SIRONA Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=XRAY",
+    "ticker": "XRAY"
+  },
+  {
+    "name": "Dupont De Nemours Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DD",
+    "ticker": "DD"
+  },
+  {
+    "name": "Duke Realty Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DRE",
+    "ticker": "DRE"
+  },
+  {
+    "name": "DTE Energy Co",
+    "logo": "https://finnhub.io/api/logo?symbol=DTE",
+    "ticker": "DTE"
+  },
+  {
+    "name": "Duke Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=DUK",
+    "ticker": "DUK"
+  },
+  {
+    "name": "DXC Technology Co",
+    "logo": "https://finnhub.io/api/logo?symbol=DXC",
+    "ticker": "DXC"
+  },
+  {
+    "name": "Electronic Arts Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EA",
+    "ticker": "EA"
+  },
+  {
+    "name": "eBay Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EBAY",
+    "ticker": "EBAY"
+  },
+  {
+    "name": "Ecolab Inc",
+    "logo": "",
+    "ticker": "ECL"
+  },
+  {
+    "name": "Equifax Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EFX",
+    "ticker": "EFX"
+  },
+  {
+    "name": "Edison International",
+    "logo": "https://finnhub.io/api/logo?symbol=EIX",
+    "ticker": "EIX"
+  },
+  {
+    "name": "Estee Lauder Companies Inc",
+    "logo": "",
+    "ticker": "EL"
+  },
+  {
+    "name": "Eastman Chemical Co",
+    "logo": "https://finnhub.io/api/logo?symbol=EMN",
+    "ticker": "EMN"
+  },
+  {
+    "name": "Emerson Electric Co",
+    "logo": "https://finnhub.io/api/logo?symbol=EMR",
+    "ticker": "EMR"
+  },
+  {
+    "name": "Enphase Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ENPH",
+    "ticker": "ENPH"
+  },
+  {
+    "name": "EOG Resources Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EOG",
+    "ticker": "EOG"
+  },
+  {
+    "name": "Equinix Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EQIX",
+    "ticker": "EQIX"
+  },
+  {
+    "name": "Equity Residential",
+    "logo": "https://finnhub.io/api/logo?symbol=EQR",
+    "ticker": "EQR"
+  },
+  {
+    "name": "Eversource Energy",
+    "logo": "https://finnhub.io/api/logo?symbol=ES",
+    "ticker": "ES"
+  },
+  {
+    "name": "Essex Property Trust Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ESS",
+    "ticker": "ESS"
+  },
+  {
+    "name": "Eaton Corporation PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=ETN",
+    "ticker": "ETN"
+  },
+  {
+    "name": "Entergy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ETR",
+    "ticker": "ETR"
+  },
+  {
+    "name": "ETSY Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ETSY",
+    "ticker": "ETSY"
+  },
+  {
+    "name": "Evergy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EVRG",
+    "ticker": "EVRG"
+  },
+  {
+    "name": "Edwards Lifesciences Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=EW",
+    "ticker": "EW"
+  },
+  {
+    "name": "Exelon Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=EXC",
+    "ticker": "EXC"
+  },
+  {
+    "name": "Expeditors International of Washington Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EXPD",
+    "ticker": "EXPD"
+  },
+  {
+    "name": "Expedia Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=EXPE",
+    "ticker": "EXPE"
+  },
+  {
+    "name": "Extra Space Storage Inc",
+    "logo": "",
+    "ticker": "EXR"
+  },
+  {
+    "name": "Everest Re Group Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=RE",
+    "ticker": "RE"
+  },
+  {
+    "name": "Exxon Mobil Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=XOM",
+    "ticker": "XOM"
+  },
+  {
+    "name": "Franklin Resources Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=BEN",
+    "ticker": "BEN"
+  },
+  {
+    "name": "Ford Motor Co",
+    "logo": "https://finnhub.io/api/logo?symbol=F",
+    "ticker": "F"
+  },
+  {
+    "name": "Fastenal Co",
+    "logo": "https://finnhub.io/api/logo?symbol=FAST",
+    "ticker": "FAST"
+  },
+  {
+    "name": "Facebook Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FB",
+    "ticker": "FB"
+  },
+  {
+    "name": "Fortune Brands Home & Security Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FBHS",
+    "ticker": "FBHS"
+  },
+  {
+    "name": "Freeport-McMoRan Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FCX",
+    "ticker": "FCX"
+  },
+  {
+    "name": "FedEx Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FDX",
+    "ticker": "FDX"
+  },
+  {
+    "name": "FirstEnergy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FE",
+    "ticker": "FE"
+  },
+  {
+    "name": "F5 Networks Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FFIV",
+    "ticker": "FFIV"
+  },
+  {
+    "name": "Fidelity National Information Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FIS",
+    "ticker": "FIS"
+  },
+  {
+    "name": "Fiserv Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FISV",
+    "ticker": "FISV"
+  },
+  {
+    "name": "Fifth Third Bancorp",
+    "logo": "https://finnhub.io/api/logo?symbol=FITB",
+    "ticker": "FITB"
+  },
+  {
+    "name": "FLIR Systems Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FLIR",
+    "ticker": "FLIR"
+  },
+  {
+    "name": "Flowserve Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FLS",
+    "ticker": "FLS"
+  },
+  {
+    "name": "Fleetcor Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FLT",
+    "ticker": "FLT"
+  },
+  {
+    "name": "FMC Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FMC",
+    "ticker": "FMC"
+  },
+  {
+    "name": "Fox Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FOXA",
+    "ticker": "FOXA"
+  },
+  {
+    "name": "First Republic Bank",
+    "logo": "https://finnhub.io/api/logo?symbol=FRC",
+    "ticker": "FRC"
+  },
+  {
+    "name": "Federal Realty Investment Trust",
+    "logo": "https://finnhub.io/api/logo?symbol=FRT",
+    "ticker": "FRT"
+  },
+  {
+    "name": "Fortinet Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=FTNT",
+    "ticker": "FTNT"
+  },
+  {
+    "name": "Fortive Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=FTV",
+    "ticker": "FTV"
+  },
+  {
+    "name": "General Dynamics Corp",
+    "logo": "",
+    "ticker": "GD"
+  },
+  {
+    "name": "General Electric Co",
+    "logo": "https://finnhub.io/api/logo?symbol=GE",
+    "ticker": "GE"
+  },
+  {
+    "name": "General Mills Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GIS",
+    "ticker": "GIS"
+  },
+  {
+    "name": "General Motors Co",
+    "logo": "https://finnhub.io/api/logo?symbol=GM",
+    "ticker": "GM"
+  },
+  {
+    "name": "Genuine Parts Co",
+    "logo": "https://finnhub.io/api/logo?symbol=GPC",
+    "ticker": "GPC"
+  },
+  {
+    "name": "Gap Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GPS",
+    "ticker": "GPS"
+  },
+  {
+    "name": "Garmin Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=GRMN",
+    "ticker": "GRMN"
+  },
+  {
+    "name": "Gartner Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IT",
+    "ticker": "IT"
+  },
+  {
+    "name": "Gilead Sciences Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GILD",
+    "ticker": "GILD"
+  },
+  {
+    "name": "Globe Life Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GL",
+    "ticker": "GL"
+  },
+  {
+    "name": "Global Payments Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GPN",
+    "ticker": "GPN"
+  },
+  {
+    "name": "Goldman Sachs Group Inc",
+    "logo": "",
+    "ticker": "GS"
+  },
+  {
+    "name": "W W Grainger Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=GWW",
+    "ticker": "GWW"
+  },
+  {
+    "name": "Halliburton Co",
+    "logo": "https://finnhub.io/api/logo?symbol=HAL",
+    "ticker": "HAL"
+  },
+  {
+    "name": "Hasbro Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HAS",
+    "ticker": "HAS"
+  },
+  {
+    "name": "Huntington Bancshares Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HBAN",
+    "ticker": "HBAN"
+  },
+  {
+    "name": "HanesBrands Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HBI",
+    "ticker": "HBI"
+  },
+  {
+    "name": "HCA Healthcare Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HCA",
+    "ticker": "HCA"
+  },
+  {
+    "name": "Home Depot Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HD",
+    "ticker": "HD"
+  },
+  {
+    "name": "Hess Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=HES",
+    "ticker": "HES"
+  },
+  {
+    "name": "HollyFrontier Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=HFC",
+    "ticker": "HFC"
+  },
+  {
+    "name": "Hartford Financial Services Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HIG",
+    "ticker": "HIG"
+  },
+  {
+    "name": "Huntington Ingalls Industries Inc",
+    "logo": "",
+    "ticker": "HII"
+  },
+  {
+    "name": "Hilton Worldwide Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HLT",
+    "ticker": "HLT"
+  },
+  {
+    "name": "Hologic Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HOLX",
+    "ticker": "HOLX"
+  },
+  {
+    "name": "Honeywell International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HON",
+    "ticker": "HON"
+  },
+  {
+    "name": "Hewlett Packard Enterprise Co",
+    "logo": "https://finnhub.io/api/logo?symbol=HPE",
+    "ticker": "HPE"
+  },
+  {
+    "name": "HP Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HPQ",
+    "ticker": "HPQ"
+  },
+  {
+    "name": "Hormel Foods Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=HRL",
+    "ticker": "HRL"
+  },
+  {
+    "name": "Henry Schein Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HSIC",
+    "ticker": "HSIC"
+  },
+  {
+    "name": "Host Hotels & Resorts Inc",
+    "logo": "",
+    "ticker": "HST"
+  },
+  {
+    "name": "Humana Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HUM",
+    "ticker": "HUM"
+  },
+  {
+    "name": "Howmet Aerospace Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=HWM",
+    "ticker": "HWM"
+  },
+  {
+    "name": "IDEXX Laboratories Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IDXX",
+    "ticker": "IDXX"
+  },
+  {
+    "name": "IDEX Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=IEX",
+    "ticker": "IEX"
+  },
+  {
+    "name": "IHS Markit Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=INFO",
+    "ticker": "INFO"
+  },
+  {
+    "name": "Illinois Tool Works Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ITW",
+    "ticker": "ITW"
+  },
+  {
+    "name": "Healthpeak Properties Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PEAK",
+    "ticker": "PEAK"
+  },
+  {
+    "name": "International Business Machines Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=IBM",
+    "ticker": "IBM"
+  },
+  {
+    "name": "Intercontinental Exchange Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ICE",
+    "ticker": "ICE"
+  },
+  {
+    "name": "International Flavors & Fragrances Inc",
+    "logo": "",
+    "ticker": "IFF"
+  },
+  {
+    "name": "Illumina Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ILMN",
+    "ticker": "ILMN"
+  },
+  {
+    "name": "Incyte Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=INCY",
+    "ticker": "INCY"
+  },
+  {
+    "name": "Intel Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=INTC",
+    "ticker": "INTC"
+  },
+  {
+    "name": "Intuit Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=INTU",
+    "ticker": "INTU"
+  },
+  {
+    "name": "International Paper Co",
+    "logo": "https://finnhub.io/api/logo?symbol=IP",
+    "ticker": "IP"
+  },
+  {
+    "name": "Interpublic Group of Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IPG",
+    "ticker": "IPG"
+  },
+  {
+    "name": "IPG Photonics Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=IPGP",
+    "ticker": "IPGP"
+  },
+  {
+    "name": "IQVIA Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IQV",
+    "ticker": "IQV"
+  },
+  {
+    "name": "Ingersoll Rand Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IR",
+    "ticker": "IR"
+  },
+  {
+    "name": "Iron Mountain Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=IRM",
+    "ticker": "IRM"
+  },
+  {
+    "name": "Intuitive Surgical Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ISRG",
+    "ticker": "ISRG"
+  },
+  {
+    "name": "Invesco Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=IVZ",
+    "ticker": "IVZ"
+  },
+  {
+    "name": "Jacobs Engineering Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=J",
+    "ticker": "J"
+  },
+  {
+    "name": "J B Hunt Transport Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=JBHT",
+    "ticker": "JBHT"
+  },
+  {
+    "name": "Johnson Controls International PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=JCI",
+    "ticker": "JCI"
+  },
+  {
+    "name": "Jack Henry & Associates Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=JKHY",
+    "ticker": "JKHY"
+  },
+  {
+    "name": "Johnson & Johnson",
+    "logo": "https://finnhub.io/api/logo?symbol=JNJ",
+    "ticker": "JNJ"
+  },
+  {
+    "name": "Juniper Networks Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=JNPR",
+    "ticker": "JNPR"
+  },
+  {
+    "name": "JPMorgan Chase & Co",
+    "logo": "https://finnhub.io/api/logo?symbol=JPM",
+    "ticker": "JPM"
+  },
+  {
+    "name": "Kellogg Co",
+    "logo": "https://finnhub.io/api/logo?symbol=K",
+    "ticker": "K"
+  },
+  {
+    "name": "KeyCorp",
+    "logo": "https://finnhub.io/api/logo?symbol=KEY",
+    "ticker": "KEY"
+  },
+  {
+    "name": "Keysight Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=KEYS",
+    "ticker": "KEYS"
+  },
+  {
+    "name": "Kimco Realty Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=KIM",
+    "ticker": "KIM"
+  },
+  {
+    "name": "Kimberly-Clark Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=KMB",
+    "ticker": "KMB"
+  },
+  {
+    "name": "Kinder Morgan Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=KMI",
+    "ticker": "KMI"
+  },
+  {
+    "name": "Kansas City Southern",
+    "logo": "",
+    "ticker": "KSU"
+  },
+  {
+    "name": "J M Smucker Co",
+    "logo": "https://finnhub.io/api/logo?symbol=SJM",
+    "ticker": "SJM"
+  },
+  {
+    "name": "Kraft Heinz Co",
+    "logo": "https://finnhub.io/api/logo?symbol=KHC",
+    "ticker": "KHC"
+  },
+  {
+    "name": "KLA Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=KLAC",
+    "ticker": "KLAC"
+  },
+  {
+    "name": "Kroger Co",
+    "logo": "https://finnhub.io/api/logo?symbol=KR",
+    "ticker": "KR"
+  },
+  {
+    "name": "Loews Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=L",
+    "ticker": "L"
+  },
+  {
+    "name": "L Brands Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LB",
+    "ticker": "LB"
+  },
+  {
+    "name": "Leidos Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LDOS",
+    "ticker": "LDOS"
+  },
+  {
+    "name": "Leggett & Platt Inc",
+    "logo": "",
+    "ticker": "LEG"
+  },
+  {
+    "name": "Lennar Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LEN",
+    "ticker": "LEN"
+  },
+  {
+    "name": "Laboratory Corporation of America Holdings",
+    "logo": "https://finnhub.io/api/logo?symbol=LH",
+    "ticker": "LH"
+  },
+  {
+    "name": "L3harris Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LHX",
+    "ticker": "LHX"
+  },
+  {
+    "name": "Linde PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=LIN",
+    "ticker": "LIN"
+  },
+  {
+    "name": "LKQ Corp",
+    "logo": "",
+    "ticker": "LKQ"
+  },
+  {
+    "name": "Eli Lilly and Co",
+    "logo": "https://finnhub.io/api/logo?symbol=LLY",
+    "ticker": "LLY"
+  },
+  {
+    "name": "Lockheed Martin Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LMT",
+    "ticker": "LMT"
+  },
+  {
+    "name": "Lincoln National Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LNC",
+    "ticker": "LNC"
+  },
+  {
+    "name": "Lam Research Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LRCX",
+    "ticker": "LRCX"
+  },
+  {
+    "name": "Lumen Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LUMN",
+    "ticker": "LUMN"
+  },
+  {
+    "name": "Las Vegas Sands Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=LVS",
+    "ticker": "LVS"
+  },
+  {
+    "name": "Lamb Weston Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LW",
+    "ticker": "LW"
+  },
+  {
+    "name": "LyondellBasell Industries NV",
+    "logo": "https://finnhub.io/api/logo?symbol=LYB",
+    "ticker": "LYB"
+  },
+  {
+    "name": "Live Nation Entertainment Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=LYV",
+    "ticker": "LYV"
+  },
+  {
+    "name": "Marriott International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MAR",
+    "ticker": "MAR"
+  },
+  {
+    "name": "Masco Corp",
+    "logo": "",
+    "ticker": "MAS"
+  },
+  {
+    "name": "Marketaxess Holdings Inc",
+    "logo": "",
+    "ticker": "MKTX"
+  },
+  {
+    "name": "Martin Marietta Materials Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MLM",
+    "ticker": "MLM"
+  },
+  {
+    "name": "Marsh & McLennan Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MMC",
+    "ticker": "MMC"
+  },
+  {
+    "name": "Marathon Petroleum Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MPC",
+    "ticker": "MPC"
+  },
+  {
+    "name": "Marathon Oil Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MRO",
+    "ticker": "MRO"
+  },
+  {
+    "name": "M&T Bank Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MTB",
+    "ticker": "MTB"
+  },
+  {
+    "name": "Mastercard Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MA",
+    "ticker": "MA"
+  },
+  {
+    "name": "Mid-America Apartment Communities Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MAA",
+    "ticker": "MAA"
+  },
+  {
+    "name": "Microchip Technology Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MCHP",
+    "ticker": "MCHP"
+  },
+  {
+    "name": "Mckesson Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MCK",
+    "ticker": "MCK"
+  },
+  {
+    "name": "Mondelez International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MDLZ",
+    "ticker": "MDLZ"
+  },
+  {
+    "name": "Medtronic PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=MDT",
+    "ticker": "MDT"
+  },
+  {
+    "name": "MetLife Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MET",
+    "ticker": "MET"
+  },
+  {
+    "name": "MGM Resorts International",
+    "logo": "https://finnhub.io/api/logo?symbol=MGM",
+    "ticker": "MGM"
+  },
+  {
+    "name": "Mohawk Industries Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MHK",
+    "ticker": "MHK"
+  },
+  {
+    "name": "McCormick & Company Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MKC",
+    "ticker": "MKC"
+  },
+  {
+    "name": "Monster Beverage Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MNST",
+    "ticker": "MNST"
+  },
+  {
+    "name": "Monolithic Power Systems Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MPWR",
+    "ticker": "MPWR"
+  },
+  {
+    "name": "Merck & Co Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MRK",
+    "ticker": "MRK"
+  },
+  {
+    "name": "Morgan Stanley",
+    "logo": "https://finnhub.io/api/logo?symbol=MS",
+    "ticker": "MS"
+  },
+  {
+    "name": "MSCI Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MSCI",
+    "ticker": "MSCI"
+  },
+  {
+    "name": "Microsoft Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=MSFT",
+    "ticker": "MSFT"
+  },
+  {
+    "name": "Motorola Solutions Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MSI",
+    "ticker": "MSI"
+  },
+  {
+    "name": "Mettler-Toledo International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MTD",
+    "ticker": "MTD"
+  },
+  {
+    "name": "Micron Technology Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MU",
+    "ticker": "MU"
+  },
+  {
+    "name": "Maxim Integrated Products Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=MXIM",
+    "ticker": "MXIM"
+  },
+  {
+    "name": "Nasdaq Inc",
+    "logo": "",
+    "ticker": "NDAQ"
+  },
+  {
+    "name": "Newmont Corporation",
+    "logo": "https://finnhub.io/api/logo?symbol=NEM",
+    "ticker": "NEM"
+  },
+  {
+    "name": "Netflix Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NFLX",
+    "ticker": "NFLX"
+  },
+  {
+    "name": "NetApp Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NTAP",
+    "ticker": "NTAP"
+  },
+  {
+    "name": "Newell Brands Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NWL",
+    "ticker": "NWL"
+  },
+  {
+    "name": "News Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NWSA",
+    "ticker": "NWSA"
+  },
+  {
+    "name": "Molson Coors Beverage Co",
+    "logo": "https://finnhub.io/api/logo?symbol=TAP",
+    "ticker": "TAP"
+  },
+  {
+    "name": "Norwegian Cruise Line Holdings Ltd",
+    "logo": "",
+    "ticker": "NCLH"
+  },
+  {
+    "name": "Nextera Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NEE",
+    "ticker": "NEE"
+  },
+  {
+    "name": "NiSource Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NI",
+    "ticker": "NI"
+  },
+  {
+    "name": "Nike Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NKE",
+    "ticker": "NKE"
+  },
+  {
+    "name": "NortonLifeLock Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NLOK",
+    "ticker": "NLOK"
+  },
+  {
+    "name": "Nielsen Holdings PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=NLSN",
+    "ticker": "NLSN"
+  },
+  {
+    "name": "Northrop Grumman Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NOC",
+    "ticker": "NOC"
+  },
+  {
+    "name": "Nov Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NOV",
+    "ticker": "NOV"
+  },
+  {
+    "name": "NRG Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NRG",
+    "ticker": "NRG"
+  },
+  {
+    "name": "Norfolk Southern Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NSC",
+    "ticker": "NSC"
+  },
+  {
+    "name": "Northern Trust Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NTRS",
+    "ticker": "NTRS"
+  },
+  {
+    "name": "Nucor Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NUE",
+    "ticker": "NUE"
+  },
+  {
+    "name": "NVIDIA Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=NVDA",
+    "ticker": "NVDA"
+  },
+  {
+    "name": "NVR Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NVR",
+    "ticker": "NVR"
+  },
+  {
+    "name": "Old Dominion Freight Line Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ODFL",
+    "ticker": "ODFL"
+  },
+  {
+    "name": "ONEOK Inc",
+    "logo": "",
+    "ticker": "OKE"
+  },
+  {
+    "name": "Omnicom Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=OMC",
+    "ticker": "OMC"
+  },
+  {
+    "name": "Oracle Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ORCL",
+    "ticker": "ORCL"
+  },
+  {
+    "name": "Otis Worldwide Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=OTIS",
+    "ticker": "OTIS"
+  },
+  {
+    "name": "Occidental Petroleum Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=OXY",
+    "ticker": "OXY"
+  },
+  {
+    "name": "Paycom Software Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PAYC",
+    "ticker": "PAYC"
+  },
+  {
+    "name": "Paychex Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PAYX",
+    "ticker": "PAYX"
+  },
+  {
+    "name": "Paccar Inc",
+    "logo": "",
+    "ticker": "PCAR"
+  },
+  {
+    "name": "PepsiCo Inc",
+    "logo": "",
+    "ticker": "PEP"
+  },
+  {
+    "name": "Parker-Hannifin Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=PH",
+    "ticker": "PH"
+  },
+  {
+    "name": "Packaging Corp of America",
+    "logo": "https://finnhub.io/api/logo?symbol=PKG",
+    "ticker": "PKG"
+  },
+  {
+    "name": "Pentair PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=PNR",
+    "ticker": "PNR"
+  },
+  {
+    "name": "PayPal Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PYPL",
+    "ticker": "PYPL"
+  },
+  {
+    "name": "Quest Diagnostics Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=DGX",
+    "ticker": "DGX"
+  },
+  {
+    "name": "Realty Income Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=O",
+    "ticker": "O"
+  },
+  {
+    "name": "Public Service Enterprise Group Inc",
+    "logo": "",
+    "ticker": "PEG"
+  },
+  {
+    "name": "Pfizer Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PFE",
+    "ticker": "PFE"
+  },
+  {
+    "name": "Principal Financial Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PFG",
+    "ticker": "PFG"
+  },
+  {
+    "name": "Procter & Gamble Co",
+    "logo": "https://finnhub.io/api/logo?symbol=PG",
+    "ticker": "PG"
+  },
+  {
+    "name": "Progressive Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=PGR",
+    "ticker": "PGR"
+  },
+  {
+    "name": "Pultegroup Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PHM",
+    "ticker": "PHM"
+  },
+  {
+    "name": "PerkinElmer Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PKI",
+    "ticker": "PKI"
+  },
+  {
+    "name": "Prologis Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PLD",
+    "ticker": "PLD"
+  },
+  {
+    "name": "Philip Morris International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PM",
+    "ticker": "PM"
+  },
+  {
+    "name": "PNC Financial Services Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PNC",
+    "ticker": "PNC"
+  },
+  {
+    "name": "Pinnacle West Capital Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=PNW",
+    "ticker": "PNW"
+  },
+  {
+    "name": "Pool Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=POOL",
+    "ticker": "POOL"
+  },
+  {
+    "name": "PPG Industries Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PPG",
+    "ticker": "PPG"
+  },
+  {
+    "name": "PPL Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=PPL",
+    "ticker": "PPL"
+  },
+  {
+    "name": "Perrigo Company PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=PRGO",
+    "ticker": "PRGO"
+  },
+  {
+    "name": "Prudential Financial Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PRU",
+    "ticker": "PRU"
+  },
+  {
+    "name": "Public Storage",
+    "logo": "https://finnhub.io/api/logo?symbol=PSA",
+    "ticker": "PSA"
+  },
+  {
+    "name": "Phillips 66",
+    "logo": "https://finnhub.io/api/logo?symbol=PSX",
+    "ticker": "PSX"
+  },
+  {
+    "name": "PVH Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=PVH",
+    "ticker": "PVH"
+  },
+  {
+    "name": "Quanta Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=PWR",
+    "ticker": "PWR"
+  },
+  {
+    "name": "Pioneer Natural Resources Co",
+    "logo": "https://finnhub.io/api/logo?symbol=PXD",
+    "ticker": "PXD"
+  },
+  {
+    "name": "Qualcomm Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=QCOM",
+    "ticker": "QCOM"
+  },
+  {
+    "name": "Qorvo Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=QRVO",
+    "ticker": "QRVO"
+  },
+  {
+    "name": "Regency Centers Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=REG",
+    "ticker": "REG"
+  },
+  {
+    "name": "Regeneron Pharmaceuticals Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=REGN",
+    "ticker": "REGN"
+  },
+  {
+    "name": "Raymond James Financial Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=RJF",
+    "ticker": "RJF"
+  },
+  {
+    "name": "Ralph Lauren Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=RL",
+    "ticker": "RL"
+  },
+  {
+    "name": "Raytheon Technologies Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=RTX",
+    "ticker": "RTX"
+  },
+  {
+    "name": "Salesforce.Com Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=CRM",
+    "ticker": "CRM"
+  },
+  {
+    "name": "Southwest Airlines Co",
+    "logo": "",
+    "ticker": "LUV"
+  },
+  {
+    "name": "ServiceNow Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=NOW",
+    "ticker": "NOW"
+  },
+  {
+    "name": "Royal Caribbean Cruises Ltd",
+    "logo": "",
+    "ticker": "RCL"
+  },
+  {
+    "name": "Regions Financial Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=RF",
+    "ticker": "RF"
+  },
+  {
+    "name": "Robert Half International Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=RHI",
+    "ticker": "RHI"
+  },
+  {
+    "name": "Resmed Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=RMD",
+    "ticker": "RMD"
+  },
+  {
+    "name": "Rockwell Automation Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ROK",
+    "ticker": "ROK"
+  },
+  {
+    "name": "Rollins Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ROL",
+    "ticker": "ROL"
+  },
+  {
+    "name": "Roper Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ROP",
+    "ticker": "ROP"
+  },
+  {
+    "name": "Ross Stores Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ROST",
+    "ticker": "ROST"
+  },
+  {
+    "name": "Republic Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=RSG",
+    "ticker": "RSG"
+  },
+  {
+    "name": "SBA Communications Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SBAC",
+    "ticker": "SBAC"
+  },
+  {
+    "name": "Starbucks Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SBUX",
+    "ticker": "SBUX"
+  },
+  {
+    "name": "Sealed Air Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SEE",
+    "ticker": "SEE"
+  },
+  {
+    "name": "Sherwin-Williams Co",
+    "logo": "https://finnhub.io/api/logo?symbol=SHW",
+    "ticker": "SHW"
+  },
+  {
+    "name": "SVB Financial Group",
+    "logo": "https://finnhub.io/api/logo?symbol=SIVB",
+    "ticker": "SIVB"
+  },
+  {
+    "name": "Schlumberger NV",
+    "logo": "https://finnhub.io/api/logo?symbol=SLB",
+    "ticker": "SLB"
+  },
+  {
+    "name": "SL Green Realty Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SLG",
+    "ticker": "SLG"
+  },
+  {
+    "name": "Snap-On Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SNA",
+    "ticker": "SNA"
+  },
+  {
+    "name": "Southern Co",
+    "logo": "https://finnhub.io/api/logo?symbol=SO",
+    "ticker": "SO"
+  },
+  {
+    "name": "Simon Property Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SPG",
+    "ticker": "SPG"
+  },
+  {
+    "name": "S&P Global Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SPGI",
+    "ticker": "SPGI"
+  },
+  {
+    "name": "Sempra Energy",
+    "logo": "https://finnhub.io/api/logo?symbol=SRE",
+    "ticker": "SRE"
+  },
+  {
+    "name": "Steris plc",
+    "logo": "",
+    "ticker": "STE"
+  },
+  {
+    "name": "State Street Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=STT",
+    "ticker": "STT"
+  },
+  {
+    "name": "Seagate Technology PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=STX",
+    "ticker": "STX"
+  },
+  {
+    "name": "Stanley Black & Decker Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SWK",
+    "ticker": "SWK"
+  },
+  {
+    "name": "Skyworks Solutions Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SWKS",
+    "ticker": "SWKS"
+  },
+  {
+    "name": "Bank of New York Mellon Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=BK",
+    "ticker": "BK"
+  },
+  {
+    "name": "Clorox Co",
+    "logo": "https://finnhub.io/api/logo?symbol=CLX",
+    "ticker": "CLX"
+  },
+  {
+    "name": "Cooper Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=COO",
+    "ticker": "COO"
+  },
+  {
+    "name": "Walt Disney Co",
+    "logo": "https://finnhub.io/api/logo?symbol=DIS",
+    "ticker": "DIS"
+  },
+  {
+    "name": "Hershey Co",
+    "logo": "https://finnhub.io/api/logo?symbol=HSY",
+    "ticker": "HSY"
+  },
+  {
+    "name": "Mosaic Co",
+    "logo": "https://finnhub.io/api/logo?symbol=MOS",
+    "ticker": "MOS"
+  },
+  {
+    "name": "Synopsys Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=SNPS",
+    "ticker": "SNPS"
+  },
+  {
+    "name": "Synchrony Financial",
+    "logo": "https://finnhub.io/api/logo?symbol=SYF",
+    "ticker": "SYF"
+  },
+  {
+    "name": "Sysco Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=SYY",
+    "ticker": "SYY"
+  },
+  {
+    "name": "TransDigm Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TDG",
+    "ticker": "TDG"
+  },
+  {
+    "name": "Teledyne Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TDY",
+    "ticker": "TDY"
+  },
+  {
+    "name": "TE Connectivity Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=TEL",
+    "ticker": "TEL"
+  },
+  {
+    "name": "Teradyne Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TER",
+    "ticker": "TER"
+  },
+  {
+    "name": "Truist Financial Corp",
+    "logo": "",
+    "ticker": "TFC"
+  },
+  {
+    "name": "Teleflex Inc",
+    "logo": "",
+    "ticker": "TFX"
+  },
+  {
+    "name": "Target Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=TGT",
+    "ticker": "TGT"
+  },
+  {
+    "name": "TJX Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TJX",
+    "ticker": "TJX"
+  },
+  {
+    "name": "Thermo Fisher Scientific Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TMO",
+    "ticker": "TMO"
+  },
+  {
+    "name": "T-Mobile US Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TMUS",
+    "ticker": "TMUS"
+  },
+  {
+    "name": "Tapestry Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TPR",
+    "ticker": "TPR"
+  },
+  {
+    "name": "Trimble Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TRMB",
+    "ticker": "TRMB"
+  },
+  {
+    "name": "T. Rowe Price Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TROW",
+    "ticker": "TROW"
+  },
+  {
+    "name": "Travelers Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TRV",
+    "ticker": "TRV"
+  },
+  {
+    "name": "Tractor Supply Co",
+    "logo": "https://finnhub.io/api/logo?symbol=TSCO",
+    "ticker": "TSCO"
+  },
+  {
+    "name": "Tesla Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TSLA",
+    "ticker": "TSLA"
+  },
+  {
+    "name": "Trane Technologies PLC",
+    "logo": "https://finnhub.io/api/logo?symbol=TT",
+    "ticker": "TT"
+  },
+  {
+    "name": "Take-Two Interactive Software Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TTWO",
+    "ticker": "TTWO"
+  },
+  {
+    "name": "Twitter Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TWTR",
+    "ticker": "TWTR"
+  },
+  {
+    "name": "Texas Instruments Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TXN",
+    "ticker": "TXN"
+  },
+  {
+    "name": "Textron Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TXT",
+    "ticker": "TXT"
+  },
+  {
+    "name": "Tyson Foods Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TSN",
+    "ticker": "TSN"
+  },
+  {
+    "name": "Tyler Technologies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=TYL",
+    "ticker": "TYL"
+  },
+  {
+    "name": "Under Armour Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=UAA",
+    "ticker": "UAA"
+  },
+  {
+    "name": "United Airlines Holdings Inc",
+    "logo": "",
+    "ticker": "UAL"
+  },
+  {
+    "name": "UDR Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=UDR",
+    "ticker": "UDR"
+  },
+  {
+    "name": "Universal Health Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=UHS",
+    "ticker": "UHS"
+  },
+  {
+    "name": "Ulta Beauty Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ULTA",
+    "ticker": "ULTA"
+  },
+  {
+    "name": "UnitedHealth Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=UNH",
+    "ticker": "UNH"
+  },
+  {
+    "name": "Unum Group",
+    "logo": "https://finnhub.io/api/logo?symbol=UNM",
+    "ticker": "UNM"
+  },
+  {
+    "name": "Union Pacific Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=UNP",
+    "ticker": "UNP"
+  },
+  {
+    "name": "United Parcel Service Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=UPS",
+    "ticker": "UPS"
+  },
+  {
+    "name": "United Rentals Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=URI",
+    "ticker": "URI"
+  },
+  {
+    "name": "U.S. Bancorp",
+    "logo": "https://finnhub.io/api/logo?symbol=USB",
+    "ticker": "USB"
+  },
+  {
+    "name": "Visa Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=V",
+    "ticker": "V"
+  },
+  {
+    "name": "Varian Medical Systems Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VAR",
+    "ticker": "VAR"
+  },
+  {
+    "name": "VF Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=VFC",
+    "ticker": "VFC"
+  },
+  {
+    "name": "ViacomCBS Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VIAC",
+    "ticker": "VIAC"
+  },
+  {
+    "name": "Valero Energy Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=VLO",
+    "ticker": "VLO"
+  },
+  {
+    "name": "Vulcan Materials Co",
+    "logo": "https://finnhub.io/api/logo?symbol=VMC",
+    "ticker": "VMC"
+  },
+  {
+    "name": "Vornado Realty Trust",
+    "logo": "https://finnhub.io/api/logo?symbol=VNO",
+    "ticker": "VNO"
+  },
+  {
+    "name": "Vontier Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=VNT",
+    "ticker": "VNT"
+  },
+  {
+    "name": "Verisk Analytics Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VRSK",
+    "ticker": "VRSK"
+  },
+  {
+    "name": "Verisign Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VRSN",
+    "ticker": "VRSN"
+  },
+  {
+    "name": "Vertex Pharmaceuticals Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VRTX",
+    "ticker": "VRTX"
+  },
+  {
+    "name": "Ventas Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VTR",
+    "ticker": "VTR"
+  },
+  {
+    "name": "Viatris Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VTRS",
+    "ticker": "VTRS"
+  },
+  {
+    "name": "Verizon Communications Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=VZ",
+    "ticker": "VZ"
+  },
+  {
+    "name": "Walgreens Boots Alliance Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WBA",
+    "ticker": "WBA"
+  },
+  {
+    "name": "W. R. Berkley Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WRB",
+    "ticker": "WRB"
+  },
+  {
+    "name": "Westinghouse Air Brake Technologies Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WAB",
+    "ticker": "WAB"
+  },
+  {
+    "name": "Waters Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WAT",
+    "ticker": "WAT"
+  },
+  {
+    "name": "Western Digital Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WDC",
+    "ticker": "WDC"
+  },
+  {
+    "name": "WEC Energy Group Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WEC",
+    "ticker": "WEC"
+  },
+  {
+    "name": "Welltower Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WELL",
+    "ticker": "WELL"
+  },
+  {
+    "name": "Wells Fargo & Co",
+    "logo": "https://finnhub.io/api/logo?symbol=WFC",
+    "ticker": "WFC"
+  },
+  {
+    "name": "Whirlpool Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=WHR",
+    "ticker": "WHR"
+  },
+  {
+    "name": "Willis Towers Watson PLC",
+    "logo": "",
+    "ticker": "WLTW"
+  },
+  {
+    "name": "Waste Management Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WM",
+    "ticker": "WM"
+  },
+  {
+    "name": "Williams Companies Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WMB",
+    "ticker": "WMB"
+  },
+  {
+    "name": "Walmart Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WMT",
+    "ticker": "WMT"
+  },
+  {
+    "name": "Westrock Co",
+    "logo": "https://finnhub.io/api/logo?symbol=WRK",
+    "ticker": "WRK"
+  },
+  {
+    "name": "West Pharmaceutical Services Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=WST",
+    "ticker": "WST"
+  },
+  {
+    "name": "Western Union Co",
+    "logo": "https://finnhub.io/api/logo?symbol=WU",
+    "ticker": "WU"
+  },
+  {
+    "name": "Weyerhaeuser Co",
+    "logo": "https://finnhub.io/api/logo?symbol=WY",
+    "ticker": "WY"
+  },
+  {
+    "name": "Wynn Resorts Ltd",
+    "logo": "https://finnhub.io/api/logo?symbol=WYNN",
+    "ticker": "WYNN"
+  },
+  {
+    "name": "Xcel Energy Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=XEL",
+    "ticker": "XEL"
+  },
+  {
+    "name": "Xilinx Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=XLNX",
+    "ticker": "XLNX"
+  },
+  {
+    "name": "Xerox Holdings Corp",
+    "logo": "",
+    "ticker": "XRX"
+  },
+  {
+    "name": "Xylem Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=XYL",
+    "ticker": "XYL"
+  },
+  {
+    "name": "Yum! Brands Inc",
+    "logo": "",
+    "ticker": "YUM"
+  },
+  {
+    "name": "Zimmer Biomet Holdings Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ZBH",
+    "ticker": "ZBH"
+  },
+  {
+    "name": "Zebra Technologies Corp",
+    "logo": "https://finnhub.io/api/logo?symbol=ZBRA",
+    "ticker": "ZBRA"
+  },
+  {
+    "name": "Zions Bancorporation NA",
+    "logo": "https://finnhub.io/api/logo?symbol=ZION",
+    "ticker": "ZION"
+  },
+  {
+    "name": "Zoetis Inc",
+    "logo": "https://finnhub.io/api/logo?symbol=ZTS",
+    "ticker": "ZTS"
+  }
+]

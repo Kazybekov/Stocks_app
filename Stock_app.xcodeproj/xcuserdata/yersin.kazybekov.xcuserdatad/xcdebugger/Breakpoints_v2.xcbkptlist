@@ -34,38 +34,6 @@
             endingLineNumber = "133"
             landmarkName = "fetchData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CEA84649-87D0-4191-A339-81C32B54880C - 4722ea128895d847"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stock_app.Presenter.getImages2(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "136"
-                  endingLineNumber = "136"
-                  offsetFromSymbolStart = "3212">
-               </Location>
-               <Location
-                  uuid = "CEA84649-87D0-4191-A339-81C32B54880C - fdb58d24dbebf27b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 () -&gt; () in Stock_app.Presenter.getImages2(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "137"
-                  endingLineNumber = "137"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -130,38 +98,6 @@
             endingLineNumber = "115"
             landmarkName = "fetchData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E09F9C38-6550-4B86-8A92-55F59DAE6A85 - 4722ea128895c5ca"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stock_app.Presenter.getImages2(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "1152">
-               </Location>
-               <Location
-                  uuid = "E09F9C38-6550-4B86-8A92-55F59DAE6A85 - 4722ea128895c5ca"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stock_app.Presenter.getImages2(completion: () -&gt; ()) -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
-                  offsetFromSymbolStart = "1140">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -178,38 +114,6 @@
             endingLineNumber = "67"
             landmarkName = "showAllStocks()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0F2A1A0A-A9D7-43A3-993A-9C6D5DFDAF5E - e03ea5c49ad7c15b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stock_app.Presenter.showAllStocks() -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "92">
-               </Location>
-               <Location
-                  uuid = "0F2A1A0A-A9D7-43A3-993A-9C6D5DFDAF5E - e03ea5c49ad7c15b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Stock_app.Presenter.showAllStocks() -&gt; ()"
-                  moduleName = "Stock_app"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/yersin.kazybekov/Documents/GitHub/Stock_app/Stock_app/MVP/Presenter.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "47"
-                  endingLineNumber = "47"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

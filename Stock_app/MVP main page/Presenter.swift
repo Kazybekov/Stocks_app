@@ -143,11 +143,7 @@ class Presenter{
         return stockList.count
     }
     
-    func getStockData(at row:Int)->StockModel{
-        
-//        if(stockList.count<=row){
-//            return StockModel(name: "Error")
-//        }
+    func getStockData(at row:Int) -> StockModel {
         if let data=dictionary[stockList[row].ticker!]{
             return data
         }
@@ -157,24 +153,62 @@ class Presenter{
     
     
     
-    func saveDataToCore(){
+    func saveDataToCore() {
         do{
             try moc.save()
         }catch{
             print("error on saving data to core")
         }
     }
-    func loadStockListData(){
-        let request:NSFetchRequest<StockListData> = StockListData.fetchRequest()
+    
+    func loadStockListData() {
+        let request: NSFetchRequest<StockListData> = StockListData.fetchRequest()
         let sort = NSSortDescriptor(key: #keyPath(StockListData.ticker), ascending: true)
         request.sortDescriptors = [sort]
+
         do {
-            try stockListFromCoreData = moc.fetch(request)
+            stockListFromCoreData = try moc.fetch(request)
+            
+            if stockListFromCoreData.isEmpty {
+                if let jsonData = loadJSONData() {
+                    let decoder = JSONDecoder()
+                    let stockListFromJSON = try decoder.decode([StockProfile].self, from: jsonData)
+                    
+                    for stock in stockListFromJSON {
+                        let stockData = StockListData(context: moc)
+                        stockData.name = stock.name
+                        stockData.ticker = stock.ticker
+                        stockData.logoUrl = stock.logo.isEmpty ? "https://img.freepik.com/free-psd/cross-mark-isolated_23-2151478819.jpg?t=st=1730787866~exp=1730791466~hmac=4a14255d74f5b5855e0558b70dc97368619c8527469907ddbc3c61596aa105e6&w=1380" : stock.logo
+                        stockData.isFavourite = false
+                    }
+                    try moc.save()
+                    stockListFromCoreData = try moc.fetch(request)
+                }
+            }
+            
             stockList = stockListFromCoreData
-        }catch {
-            print("Could not load data")
+        } catch {
+            print("Could not load data: \(error)")
         }
     }
+
+    private func loadJSONData() -> Data? {
+        let filePath = Bundle.main.path(forResource: "stockProfiles", ofType: "json")
+        guard let path = filePath, let jsonData = try? Data(contentsOf: URL(fileURLWithPath: path)) else {
+            print("Could not load JSON data from file.")
+            return nil
+        }
+        return jsonData
+    }
+
+    struct StockProfile: Codable {
+        let name: String
+        let logo: String
+        let ticker: String
+    }
+
+    
+    
 }
 
 
